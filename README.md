@@ -71,14 +71,13 @@ The metrics appear as Streamlit metric widgets below the description, showing:
 - Real-time inference performance
 - Basic quality assessment of the generated response
 
-============================
-from HPC:
-cd cd /datasets/work/oa-mdebris-dawe/work/dev/nay020/multimodal_LLM
-source /datasets/work/oa-mdebris-dawe/work/dev/nay020/multimodal_LLM/venv/bin/activate
+
+# Run the application from HPC:
+cd /path/to/prject
+source /path/to/prject/venv/bin/activate
 streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 From local machine, 
-ssh -L 8501:localhost:8501 nay020@virga.hpc.csiro.au
-on web:
+ssh -L 8501:localhost:8501 user@<hpc>
+on browser:
 localhost:8501
-=========
