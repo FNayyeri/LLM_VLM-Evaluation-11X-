@@ -72,12 +72,13 @@ The metrics appear as Streamlit metric widgets below the description, showing:
 - Basic quality assessment of the generated response
 
 
-# Run the application from HPC:
-cd /path/to/prject
-source /path/to/prject/venv/bin/activate
-streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+# Run the application: 
+## from HPC:
+    cd /path/to/prject
+    source /path/to/prject/venv/bin/activate
+    streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
-From local machine, 
-ssh -L 8501:localhost:8501 user@<hpc>
-on browser:
-localhost:8501
+## From local machine, 
+    ssh -L 8501:localhost:8501 user@<hpc>
+## on browser:
+    localhost:8501
