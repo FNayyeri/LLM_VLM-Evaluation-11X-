@@ -75,10 +75,13 @@ The metrics appear as Streamlit metric widgets below the description, showing:
 # Run the application: 
 ## from HPC:
     cd /path/to/prject
+    git clone https://github.com/FNayyeri/LLM_VLM-Evaluation-11X-.git
+    python -m venv venv
+    pip install -r requirements.txt
     source /path/to/prject/venv/bin/activate
     streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 
 ## From local machine, 
-    ssh -L 8501:localhost:8501 user@<hpc>
+    ssh -L 8501:localhost:8501 user@<hpc login>
 ## on browser:
     localhost:8501
