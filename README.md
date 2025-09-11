@@ -6,9 +6,6 @@ Here we implement two approaches for multimodal LLM-VLM inference:
     3) Claude approach
     4) LLaVA-based approach - Using a pre-trained multimodal model like LLaVA for image and video processing
      
-# OpenAI API approach:
-The OpenAI API approach leverages OpenAI's powerful GPT-4V model for multimodal inference. This method is straightforward and provides high-quality results with minimal setup.
-
 ## Model Options:
     - GPT-4V (OpenAI): 1-3s (API) | Score: 92.5/100 (highest quality)
     - GPT-4 Turbo (OpenAI): 1-3s (API) | Score: 92.5/100 (highest quality)
@@ -21,6 +18,9 @@ The OpenAI API approach leverages OpenAI's powerful GPT-4V model for multimodal 
     - LLaVA 1.6 Next Image, Video | Mistral 7B: 3-6s (GPU) / 45-90s (CPU) | Score: 85.3/100
     - LLaVA 1.6 Next Image, Video | Vicuna 7B: 3-6s (GPU) / 45-90s (CPU) | Score: 83.7/100
     - LLaVA 1.6 Next Image, Video | Vicuna 13B: 5-10s (GPU) / 90-180s (CPU) | Score: 87.2/100
+
+# OpenAI API approach:
+The OpenAI API approach leverages OpenAI's powerful GPT-4V model for multimodal inference. This method is straightforward and provides high-quality results with minimal setup.
 
 ##  File Types Supported:
     - Image - JPG, PNG, etc.
