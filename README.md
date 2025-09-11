@@ -1,6 +1,6 @@
 # CrossModal Intelligence Evaluation (CMIE) - LLMVLM-11X
 
-Here we implement two approaches for multimodal LLM-VLM inference:
+Here we implement four approaches for multimodal LLM-VLM inference:
     1) OpenAI API approach - Using OpenAI's GPT-4V for multimodal inference for image, video and Document processing
     2) Gemini approach
     3) Claude approach
